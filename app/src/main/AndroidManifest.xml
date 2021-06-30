@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinequiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quizpng"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Result"></activity>
+        <activity android:name=".Quiz" />
+        <activity android:name=".Studenthome" />
+        <activity android:name=".Studentreg" />
+        <activity android:name=".Studentlogin" />
+        <activity android:name=".Addquestion" />
+        <activity android:name=".Addsubject" />
+        <activity android:name=".Thome" />
+        <activity android:name=".Registration" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Firstscreen" />
+        <activity android:name=".Welcomesrc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
